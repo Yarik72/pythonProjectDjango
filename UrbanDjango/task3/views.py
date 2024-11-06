@@ -14,5 +14,6 @@ def get_games(request):
     context = {'atom': atom, 'cyber': cyber, 'pay': pay}
     return render(request, 'third_task/games.html', context)
 
+
 def get_cart(request):
     return render(request, 'third_task/cart.html')
